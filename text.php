@@ -18,7 +18,7 @@
             <p>mwrdrs</p>
         </div>
         <div class="developer">
-            <img src="https://i.pinimg.com/originals/16/c1/82/16c1828f46582e1ef249565167e1f1c7.gif" alt="twistyk's avatar">
+            <img src="https://i.pinimg.com/originals/bb/fa/30/bbfa30a752409dc211bda11676d4a2d8.gif" alt="twistyk's avatar">
             <p>twistyk</p>
         </div>
     </div>
