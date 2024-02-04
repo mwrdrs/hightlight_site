@@ -2,10 +2,30 @@
 header("Content-type: text/css; charset: UTF-8");
 ?>
 
-@import url('https://fonts.googleapis.com/css2?family=VCR+OSD+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+h1 {
+    /* Используйте пиксельный шрифт */
+    font-family: 'Press Start 2P', cursive;
+    /* Создайте эффект "глючного" текста */
+    position: relative;
+    color: #ffffff;
+    text-shadow: 3px 0 0 #ff0000, -3px 0 0 #0000ff;
+    animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 3px 0 0 #ff0000, -3px 0 0 #0000ff; }
+    14% { text-shadow: 3px 0 0 #0000ff, -3px 0 0 #ff0000; }
+    28% { text-shadow: -3px 0 0 #ff0000, 3px 0 0 #0000ff; }
+    42% { text-shadow: -3px 0 0 #0000ff, 3px 0 0 #ff0000; }
+    57% { text-shadow: 3px 0 0 #ff0000, -3px 0 0 #0000ff; }
+    71% { text-shadow: 3px 0 0 #0000ff, -3px 0 0 #ff0000; }
+    85% { text-shadow: -3px 0 0 #ff0000, 3px 0 0 #0000ff; }
+    100% { text-shadow: -3px 0 0 #0000ff, 3px 0 0 #ff0000; }
+}
 body {
-    background: url('https://i.pinimg.com/originals/e7/7f/c3/e77fc3197e445ac3e61e628e0a8cfbf9.gif') no-repeat center center fixed; 
+    background: url('https://i.pinimg.com/originals/23/b0/9c/23b09c3421d2202656c63aff7946b11a.gif') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
