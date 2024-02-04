@@ -5,7 +5,6 @@ header("Content-type: text/css; charset: UTF-8");
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 h1 {
-    /* Используйте пиксельный шрифт */
     font-family: 'Press Start 2P', cursive;
     /* Создайте эффект "глючного" текста */
     position: relative;
